@@ -1,0 +1,24 @@
+{
+  "name": "yanlongli/papayment",
+  "description": "PHP Aggregation Payment Client, 专注小程序支付下单，支持：支付宝、微信、百度、快手、字节跳动（抖音、头条）",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yanlo",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.0||^7.0",
+    "alipaysdk/easysdk": "^2.0",
+    "ext-json": "*",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "papayment\\": "src/"
+    }
+  }
+}

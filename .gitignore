@@ -1,0 +1,7 @@
+# idea
+.idea
+
+# composer
+vendor
+composer.lock
+composer.phar
